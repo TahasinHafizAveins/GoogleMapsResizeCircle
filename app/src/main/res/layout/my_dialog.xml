@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_radius_value"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:hint="@string/enter_circle_radius"
+           android:id="@+id/radiusInput"
+           android:inputType="number"
+           android:importantForAutofill="no" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonOk"
+            style="@style/okBtn"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/ok"
+            android:layout_alignParentStart="true"/>
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/cancelBtn"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="8dp"
+            android:layout_alignParentEnd="true"
+            android:text="@string/cancle" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

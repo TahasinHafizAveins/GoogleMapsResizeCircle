@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GoogleMapsResizeCircle</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_address_city_or_zip_code">Enter Address, City or Zip Code</string>
+    <string name="enter_circle_radius">Enter Circle Radius</string>
+    <string name="set_radius_value">Set Radius Value</string>
+    <string name="ok">Ok</string>
+    <string name="cancle">Cancle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
